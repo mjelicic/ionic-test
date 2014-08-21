@@ -1,4 +1,5 @@
 ionic-test
 ==========
 
-ionic test app
+  bower install
+  npm install
