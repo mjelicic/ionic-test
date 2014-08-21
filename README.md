@@ -1,4 +1,4 @@
-ionic-test
+Ionic Test App
 ==========
 
 Building Test App
