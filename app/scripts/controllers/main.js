@@ -9,5 +9,10 @@
  */
 angular.module('demoApp')
   .controller('MainCtrl', function ($scope) {
+
     $scope.items = ['test', 'test2'];
+    
+  	$scope.selected = function(item) {
+    	alert('Share Item: ' + item);
+  	};
   });
