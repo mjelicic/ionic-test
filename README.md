@@ -4,10 +4,12 @@ Ionic Test App
 Building Test App
 ---------
 prereq: 
+    
+    nodejs (http://nodejs.org/)
+    compass (http://compass-style.org/install/)
+    npm install -g cordova ionic bower grunt-cli
 
-    npm install -g cordova ionic bower grunt
-
-just run:
+when you have all dependencies run:
 
     bower install
     npm install
