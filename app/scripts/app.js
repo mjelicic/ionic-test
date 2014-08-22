@@ -14,15 +14,15 @@ angular
 
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
-      .state('main', {
+      .state('itemList', {
         url: '/',
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/itemList.html',
+        controller: 'itemListCtrl'
       })
-      .state('about', {
-        url: '/about',
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .state('itemDetail', {
+        url: '/itemDetail/:item',
+        templateUrl: 'views/itemDetail.html',
+        controller: 'itemDetailCtrl'
       });
 
     $urlRouterProvider.otherwise('/');
