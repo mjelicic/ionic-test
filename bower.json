@@ -3,18 +3,23 @@
   "appPath": "app",
   "version": "0.0.0",
   "dependencies": {
-    "angular": "~1.2.22",
-    "angular-resource": "1.2.22",
-    "angular-cookies": "1.2.22",
-    "angular-sanitize": "1.2.22",
-    "angular-animate": "~1.2.22",
-    "angular-touch": "1.2.22",
-    "angular-route": "1.2.22",
+    "angular": "~1.2.23",
+    "angular-resource": "1.2.23",
+    "angular-cookies": "1.2.23",
+    "angular-sanitize": "1.2.23",
+    "angular-animate": "~1.2.23",
+    "angular-touch": "1.2.23",
+    "angular-route": "1.2.23",
     "ionic": "1.0.0-beta.5b",
-    "angular-ui-router": "~0.2.10"
+    "angular-ui-router": "~0.2.10",
+    "firebase": "~1.0.21",
+    "angularfire": "~0.8.0"
   },
   "devDependencies": {
-    "angular-mocks": "1.2.22",
-    "angular-scenario": "1.2.22"
+    "angular-mocks": "1.2.23",
+    "angular-scenario": "1.2.23"
+  },
+  "resolutions": {
+    "angular": "1.2.23"
   }
 }

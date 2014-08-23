@@ -9,7 +9,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.router',
-    'ionic'
+    'ionic',
+    'models'
   ])
 
   .config(function ($stateProvider, $urlRouterProvider) {
